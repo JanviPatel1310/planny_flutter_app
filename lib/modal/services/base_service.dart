@@ -1,0 +1,33 @@
+abstract class BaseService<T> {
+  final String baseURL = 'https://api.plany.ai/';
+  final String editContactURL = 'api/contact/update/';
+  final String getContactURL = 'api/contact';
+  final String createStationURL = 'api/station/store';
+  final String updateStationURL = 'api/station/update/';
+  final String stationList = 'api/station';
+  final String workspaceList = 'api/workspace';
+  final String workspaceCreate = 'api/workspace/store';
+  final String workspaceDelete = 'api/workspace/delete/';
+  final String workspaceEdit = 'api/workspace/update/';
+  final String taskList = 'api/task';
+  final String taskCreate = 'api/task/store';
+  final String taskDelete = 'api/task/delete/';
+  final String terminalCreate = 'api/terminal/store';
+  final String terminalList = 'api/terminals';
+  final String terminalDelete = 'api/terminal/delete/';
+  final String terminalEdit = 'api/terminal/update/';
+  final String terminalDetails = 'api/terminal/show/';
+  final String boardList = 'api/board';
+  final String boardCreate = 'api/board/store';
+  final String boardEdit = 'api/board/update/';
+  final String boardDelete = 'api/board/delete/';
+  final String userList = 'api/users';
+  final String userEdit = 'api/users/update/';
+  final String taskEdit = 'api/task/update/';
+  final String addUser = 'api/add_new_user';
+  final String createTaskgroup = 'api/taskGroup/store';
+  final String taskgroupList = 'api/taskGroup';
+  final String taskgroupDelete = 'api/taskGroup/delete/';
+  final String taskgroupUpdate = 'api/taskGroup/update/';
+  final String inviteUser = 'api/inviteUser';
+}
